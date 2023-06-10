@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+    <div class="contenar">
+        <div class=" row  py-5 ">
+            <div class="col-md-9 mx-auto mb-3">
+                <!-- <label for="index"  class="form-label">Index</label>
+                <input type="number" class="form-control my-2" id="index" name="index">
+                <br> -->
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control my-2" id="name" name="name">
+                <br>
+                <label for="price" class="form-label">Price</label>
+                <input type="number" class="form-control my-2" name="price" id="price">
+                <br>
+                <label for="category" class="form-label">Category</label>
+                <input type="text" class="form-control my-2" id="category" name="category">
+                <br>
+                <label for="description" class="form-label">Description</label>
+                <textarea type="text" class="form-control" id="description" name="description"></textarea>
+                <br>
+                <button type="submit" class="btn btn-info" onclick="addProduct()"> addProduct</button>
+            </div>
+        </div>
+        <table class="table table-bordered w-75 mx-auto">
+            <thead>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </thead>
+            <tbody id="myt">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/product.js"></script>
+</body>
+
+</html>
